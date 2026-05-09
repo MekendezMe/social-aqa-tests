@@ -1,0 +1,1 @@
+BASE_URL = 'https://a-little-bit-api.com.ru/api/v1'
