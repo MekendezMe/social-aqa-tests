@@ -1,0 +1,30 @@
+stages:
+  - smoke
+  - regression
+
+smoke_tests:
+  stage: smoke
+  image: python:3.13-slim
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - pytest -m smoke
+  artifacts:
+    when: always
+    paths:
+      - allure-results
+    expire_in: 7 days
+
+regression_tests:
+  stage: regression
+  image: python:3.13-slim
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - pytest -m regression
+  artifacts:
+    when: always
+    paths:
+      - allure-results
+    expire_in: 7 days
+  when: manual
