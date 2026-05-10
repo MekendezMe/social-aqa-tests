@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "julia43@example.com",
+      "password": "y9WPvTuT_f",
+      "username": "gonzaleskathleen",
+      "name": "Gloria Williams",
+      "last_name": "Williams"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3NzUsImlhdCI6MTc3ODM3NDg3NSwic3ViIjoiMTk0IiwidHlwIjoiYWNjZXNzIn0.FGbGxu9CQTgMuDk3qDxX3qYdqJes2Z5jaUL9Bpc76xA\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2NzUsImlhdCI6MTc3ODM3NDg3NSwianRpIjoiOTA2YTVmMDQtMGMwYi00MWRiLTk0MzctMDRmNDExMDEwNGNiIiwic3ViIjoiMTk0IiwidHlwIjoicmVmcmVzaCJ9.rhwTqsYsxjN_1XPigaGivdelhNh8yJ8xUispO5fQ1Qw\",\"device_id\":\"bbbc930d-8cbd-549c-b898-d82b2b1f94b6\"}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/login",
+    "body": {
+      "email": "meyermisty@example.net",
+      "password": "&30AbD)cUu"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3NTYsImlhdCI6MTc3ODM3NDg1Niwic3ViIjoiMTkwIiwidHlwIjoiYWNjZXNzIn0.UjQKG8fqqVZlWcF3DwUTMZxsWeni6QQD3IdY2LFupKk\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2NTYsImlhdCI6MTc3ODM3NDg1NiwianRpIjoiZWJiZDVjZjgtMDljZi00YWEzLTlhYTUtMTFiMDM2OGJiMjg4Iiwic3ViIjoiMTkwIiwidHlwIjoicmVmcmVzaCJ9.F2Ld8BAwDZnZRTbG_1SsVBn7AKi4Ghesrt4k4avOaQU\",\"device_id\":\"9b403f88-1d0f-5ce7-ae51-8f986601ec99\"}"
+  }
+}

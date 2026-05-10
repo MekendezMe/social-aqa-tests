@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/posts/137",
+    "body": {
+      "id": 137
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "body": "{\"success\":true}"
+  }
+}

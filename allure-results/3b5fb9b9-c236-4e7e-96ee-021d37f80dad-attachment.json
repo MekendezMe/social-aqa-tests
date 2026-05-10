@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "chad43@example.org",
+      "password": "!5+G_CRdVr",
+      "username": "todd74",
+      "name": "Samuel Mcdonald",
+      "last_name": "Lee"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3ODIsImlhdCI6MTc3ODM3NDg4Miwic3ViIjoiMTk1IiwidHlwIjoiYWNjZXNzIn0.BAEpe6egO0sx0Y9FhGSfE1VULCIfrOH6BmSzyxzmOAc\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2ODIsImlhdCI6MTc3ODM3NDg4MiwianRpIjoiNjY3OTM1MGYtNDlhMy00ZDQ3LTk0MWUtNTgyN2MzMWJjMzNlIiwic3ViIjoiMTk1IiwidHlwIjoicmVmcmVzaCJ9.ofka3vaDwxJ_0uC2pZlNeSVOcgGSvyv8aftq6aFt3Bk\",\"device_id\":\"e37b2c4e-3309-54c6-8347-a2a795668c7d\"}"
+  }
+}

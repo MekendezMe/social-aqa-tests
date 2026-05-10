@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "tylersmith@example.org",
+      "password": "vB2AXDcmW$",
+      "username": "rossscott",
+      "name": "Matthew Osborne",
+      "last_name": "Campbell"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3ODQsImlhdCI6MTc3ODM3NDg4NCwic3ViIjoiMTk2IiwidHlwIjoiYWNjZXNzIn0.aWAjDAHC4sxBqjz-BvJf9RzxbO_YU-GpeTVf4V5Z4Vo\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2ODQsImlhdCI6MTc3ODM3NDg4NCwianRpIjoiNWZiZDkwNWYtYzYxYy00MThiLTk1OWYtZGU2Y2Q0NjZlMzMzIiwic3ViIjoiMTk2IiwidHlwIjoicmVmcmVzaCJ9.56gRs0qxRVt10zKEruvRTVj-viMnC_jmwGbOlkzMlCQ\",\"device_id\":\"96c149cf-dedf-5297-b7d3-d0bf080745ec\"}"
+  }
+}

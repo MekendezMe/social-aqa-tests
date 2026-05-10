@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "pamelageorge@example.org",
+      "password": "$vGEb8Jn4m",
+      "username": "thompsonmegan",
+      "name": "Anthony Sawyer",
+      "last_name": "Austin"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ2OTYsImlhdCI6MTc3ODM3Mzc5Niwic3ViIjoiMTgzIiwidHlwIjoiYWNjZXNzIn0.1jfmk6Zd9gwVfAB5lZzwKw1N5q_xAQ9faIRXMbDj-kg\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg1OTYsImlhdCI6MTc3ODM3Mzc5NiwianRpIjoiNjJjZmJmMmEtMTQyNS00ZTYwLTkwYjQtMGJlYTdhYzU5NDUxIiwic3ViIjoiMTgzIiwidHlwIjoicmVmcmVzaCJ9.AR2QAIFZDmOW8cUnaTt9vSq8CF1TWtaqDwFDt5ca2M8\",\"device_id\":\"bb19dbbc-8c5e-5ec4-b62d-f3c82173b409\"}"
+  }
+}

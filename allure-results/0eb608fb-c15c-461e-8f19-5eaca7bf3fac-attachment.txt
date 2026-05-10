@@ -1,0 +1,1 @@
+{"message":"Не удалось получить пост","error":"не удалось получить пост: PostRepo: record not found"}

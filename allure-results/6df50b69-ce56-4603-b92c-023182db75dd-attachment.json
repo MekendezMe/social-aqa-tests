@@ -1,0 +1,1 @@
+{"message":"Не удалось разобрать multipart-форму создания поста","error":"request Content-Type isn't multipart/form-data: Invalid argument"}

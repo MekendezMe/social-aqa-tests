@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "vbeltran@example.com",
+      "password": "c)2CI8Lli4",
+      "username": "iprice",
+      "name": "Paul Lewis",
+      "last_name": "Mitchell"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3NTIsImlhdCI6MTc3ODM3NDg1Miwic3ViIjoiMTg5IiwidHlwIjoiYWNjZXNzIn0.LZ7pzeB21eQRg1iLIXQh6bbtPiJoPfg3GCKrlt3gH90\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2NTIsImlhdCI6MTc3ODM3NDg1MiwianRpIjoiZGY0YTAyYmUtYzVhYi00ODBiLWI3NDgtMjY2OTJjMTY1NDYzIiwic3ViIjoiMTg5IiwidHlwIjoicmVmcmVzaCJ9.nlEJ2ZbV-dJgVStQTlz6FxKObZi3Ma2CCIvj7oD9jNs\",\"device_id\":\"faaf33d4-d2ac-5f95-b58d-b1d06ed721c6\"}"
+  }
+}

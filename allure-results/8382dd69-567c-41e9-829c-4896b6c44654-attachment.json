@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "PATCH-form-data",
+    "url": "https://a-little-bit-api.com.ru/api/v1/posts/141",
+    "body": {
+      "content": [
+        null,
+        "Неудобно страсть полюбить болото угроза новый."
+      ]
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "body": "{\"post_id\":141,\"content\":\"Неудобно страсть полюбить болото угроза новый.\",\"media\":[],\"likes_count\":0,\"comments_count\":0,\"liked_by_user\":false,\"subscribed_by_user\":false,\"created_at\":\"2026-05-10 04:01:20\",\"user\":{\"user_id\":194,\"username\":\"gonzaleskathleen\",\"name\":\"Gloria Williams\",\"last_name\":\"Williams\",\"avatar\":null}}"
+  }
+}

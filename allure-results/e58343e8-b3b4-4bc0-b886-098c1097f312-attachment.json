@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "davidknapp@example.org",
+      "password": "%BB4F(w1*L",
+      "username": "estephens",
+      "name": "Megan Stewart",
+      "last_name": "Hernandez"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ2OTAsImlhdCI6MTc3ODM3Mzc5MCwic3ViIjoiMTgxIiwidHlwIjoiYWNjZXNzIn0.kSLUyLIDiCqpTq2mHsvuvOh8o5Ztx5xhpMDMWQv2cqQ\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg1OTAsImlhdCI6MTc3ODM3Mzc5MCwianRpIjoiNzU4NWE0Y2QtY2ZmZC00NDkwLTg5MDYtMjJhMmQzN2I2NTVhIiwic3ViIjoiMTgxIiwidHlwIjoicmVmcmVzaCJ9.3MC5ez6T8sM9InywZV62mu_nArvVPqavJepBFdgucw0\",\"device_id\":\"8d8d6f77-b6e3-5285-8cf9-a989a008605a\"}"
+  }
+}

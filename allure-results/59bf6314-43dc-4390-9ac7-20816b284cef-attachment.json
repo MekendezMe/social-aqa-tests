@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "meyermisty@example.net",
+      "password": "&30AbD)cUu",
+      "username": "jenniferbell",
+      "name": "Peter White",
+      "last_name": "Evans"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3NTQsImlhdCI6MTc3ODM3NDg1NCwic3ViIjoiMTkwIiwidHlwIjoiYWNjZXNzIn0.NqVgjeTgDt2UoPtgQILO099VknONLcGCkXx9A8LNe9k\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2NTQsImlhdCI6MTc3ODM3NDg1NCwianRpIjoiYjBjMjA1MTctMzI4Yi00YjBiLWFlMzUtN2E2MTM1MWM2NjA3Iiwic3ViIjoiMTkwIiwidHlwIjoicmVmcmVzaCJ9.p8Vz1Ycm7FUaF_d6lH33AKWOKrwFmVXR1FDmDZv7iXk\",\"device_id\":\"9b403f88-1d0f-5ce7-ae51-8f986601ec99\"}"
+  }
+}

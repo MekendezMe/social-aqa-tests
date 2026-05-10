@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "frostvictoria@example.com",
+      "password": "y9RBmbm3#%",
+      "username": "robin88",
+      "name": "Amy Harris",
+      "last_name": "Kennedy"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ3MTEsImlhdCI6MTc3ODM3MzgxMSwic3ViIjoiMTg1IiwidHlwIjoiYWNjZXNzIn0.JWVdUEYjnaTyXS2DmVSBKUhFOLQr-QJ5q6aeptI8NSY\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg2MTEsImlhdCI6MTc3ODM3MzgxMSwianRpIjoiMDhmN2Q2YmUtOTYwNy00M2I5LTg4MTUtMjIzYWRkZmEzZjViIiwic3ViIjoiMTg1IiwidHlwIjoicmVmcmVzaCJ9.8ZhwAGB-EI7T89fszPWweV13qyzezPFrW-WzYP0H1Ic\",\"device_id\":\"934220bb-a80d-5b94-8643-6ef11a53a9d5\"}"
+  }
+}

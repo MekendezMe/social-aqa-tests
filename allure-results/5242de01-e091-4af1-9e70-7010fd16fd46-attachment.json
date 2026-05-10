@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "fisherdavid@example.com",
+      "password": "sKIQww0e(7",
+      "username": "fsmith",
+      "name": "Ryan Brown",
+      "last_name": "Ramirez"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ3MTUsImlhdCI6MTc3ODM3MzgxNSwic3ViIjoiMTg3IiwidHlwIjoiYWNjZXNzIn0.cJ5RZ5F3jFNruFH6enA14jWOK0otMV_lNki0V3scDiI\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg2MTUsImlhdCI6MTc3ODM3MzgxNSwianRpIjoiY2JlNTU2MjQtZTgzOC00MzViLWE4MmMtMTZjMzhiZmQ5NjhiIiwic3ViIjoiMTg3IiwidHlwIjoicmVmcmVzaCJ9.HBgz_-gHyHwQCLyQoTUu4QXl9HS7RfjrBtCWpJRxlRY\",\"device_id\":\"ac0027e8-c39f-5624-90d2-7cde5c94c0b5\"}"
+  }
+}

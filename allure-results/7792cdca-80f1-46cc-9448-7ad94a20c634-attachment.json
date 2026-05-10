@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "danderson@example.net",
+      "password": "_^dWI0CnWe",
+      "username": "kmartinez",
+      "name": "Mark Powell",
+      "last_name": "Baker"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ3MDksImlhdCI6MTc3ODM3MzgwOSwic3ViIjoiMTg0IiwidHlwIjoiYWNjZXNzIn0.FZxlnZ0FB_i_sgNNR7f-5fnYFzzCko_-uW6R2EkdiU4\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg2MDksImlhdCI6MTc3ODM3MzgwOSwianRpIjoiMWQ5NzA4MTctZWI5YS00NGQ3LTljN2EtNmI2ZmQ3YmM1OWU4Iiwic3ViIjoiMTg0IiwidHlwIjoicmVmcmVzaCJ9.ORcexjGC1vfkG5IhNvpIwnhrchpEV7zOmxpqpIzFBIs\",\"device_id\":\"d53c250c-047c-5a88-a618-d7a3b36e6bea\"}"
+  }
+}

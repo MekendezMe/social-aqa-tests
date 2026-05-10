@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://a-little-bit-api.com.ru/api/v1/posts",
+    "body": {
+      "page_number": 1,
+      "limit": 50,
+      "type": "all"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "body": "{\"message\":\"Не передан обязательный заголовок Device-ID\",\"error\":\"missing Device-ID header\"}"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "aaronmullins@example.net",
+      "password": "Mzr2Ws^5u(",
+      "username": "coopersamuel",
+      "name": "James Cross",
+      "last_name": "Spears"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ3MjQsImlhdCI6MTc3ODM3MzgyNCwic3ViIjoiMTg4IiwidHlwIjoiYWNjZXNzIn0.fQxVaFMnqj0r8I0kBxj7mKnPDz8L90jOWHw1y_FvGSg\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg2MjQsImlhdCI6MTc3ODM3MzgyNCwianRpIjoiY2EzZmNhNjMtZDgzMC00ZWM2LWIwZDYtYmI1ZTRjNmZhZTU2Iiwic3ViIjoiMTg4IiwidHlwIjoicmVmcmVzaCJ9.U62xgi_uofanLELqZVR5s955bCkzpPIM6syw8Q4Uu1k\",\"device_id\":\"d039be4a-bbb1-5759-8d11-4fcb60a3d799\"}"
+  }
+}

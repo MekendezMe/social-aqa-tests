@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "https://a-little-bit-api.com.ru/api/v1/posts/141",
+    "body": {
+      "id": 141
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "body": "{\"success\":true}"
+  }
+}

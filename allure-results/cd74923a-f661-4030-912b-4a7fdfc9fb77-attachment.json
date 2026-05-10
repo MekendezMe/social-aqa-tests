@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "victor08@example.net",
+      "password": "&q442F3g^v",
+      "username": "kelly15",
+      "name": "Christine Deleon",
+      "last_name": "Ayala"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3NzMsImlhdCI6MTc3ODM3NDg3Mywic3ViIjoiMTkzIiwidHlwIjoiYWNjZXNzIn0.o3r5Vg4ALTpJPvaLZX8g-A1z48UsgrOx6BOVI1nkfcE\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2NzMsImlhdCI6MTc3ODM3NDg3MywianRpIjoiODVlOTZhYWYtNGYxOS00MDM2LWEwNTYtMzE1MjE2Nzk5YTNjIiwic3ViIjoiMTkzIiwidHlwIjoicmVmcmVzaCJ9.1B_iCm_iT2X6m-JGAgPuhu12VIteDn4AinuNRq07U1I\",\"device_id\":\"680df066-673e-5150-9af8-edfc72b7b041\"}"
+  }
+}

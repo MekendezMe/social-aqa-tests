@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "josepalmer@example.com",
+      "password": "#a)K!5cc8C",
+      "username": "zgonzalez",
+      "name": "Maria Allen",
+      "last_name": "Jones"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3NTgsImlhdCI6MTc3ODM3NDg1OCwic3ViIjoiMTkxIiwidHlwIjoiYWNjZXNzIn0.xOIMmu7kF_Yvf_s2eUzA-kHw78F7B9-S99yoi1D8Cok\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2NTgsImlhdCI6MTc3ODM3NDg1OCwianRpIjoiNTM2ZTFmY2UtZTczNy00MDU3LTgzYTYtMDEwYTFkNDBmNGU0Iiwic3ViIjoiMTkxIiwidHlwIjoicmVmcmVzaCJ9.DmcnaURIepSs_bw1RNmu7ICjP7stJDR2pg9Q7lrN79o\",\"device_id\":\"9a08b2a8-bc00-551b-9385-8b04705bfb5a\"}"
+  }
+}

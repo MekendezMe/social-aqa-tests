@@ -18,3 +18,6 @@ class DeletePostRequest(BaseModel):
 class CreatePostRequest(BaseModel):
     content: Optional[str] = None
     media_paths: Optional[list[Path]] = None
+
+class UpdatePostRequest(CreatePostRequest):
+    id: int

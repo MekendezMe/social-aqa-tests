@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "kevinhopkins@example.org",
+      "password": "em4BJ9r8^!",
+      "username": "lsimmons",
+      "name": "Sarah Tanner",
+      "last_name": "Wagner"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ2OTIsImlhdCI6MTc3ODM3Mzc5Miwic3ViIjoiMTgyIiwidHlwIjoiYWNjZXNzIn0.rg85e470AJoqnArH1NC_tBBZR7WNM2FNZLSE5XPfLyE\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg1OTIsImlhdCI6MTc3ODM3Mzc5MiwianRpIjoiYzM5ZDY2NGEtNjgzMC00MmFjLTg5YzctZWJlYmQ0OTA1M2RjIiwic3ViIjoiMTgyIiwidHlwIjoicmVmcmVzaCJ9.VT58Zpl4I7iWtOV653dordwWnR_9Py5zTVQs83YSgIo\",\"device_id\":\"819d2e00-a145-58bc-8515-f36d2782f338\"}"
+  }
+}

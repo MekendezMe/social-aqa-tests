@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "ushaw@example.com",
+      "password": "I$Wb48Ko$O",
+      "username": "heatherjarvis",
+      "name": "Jodi Howard",
+      "last_name": "Chandler"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzU3NzEsImlhdCI6MTc3ODM3NDg3MSwic3ViIjoiMTkyIiwidHlwIjoiYWNjZXNzIn0.Upq30MaZXVXnxmdTEFTFldviWDrOOeCmKZEm81gFYQE\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzk2NzEsImlhdCI6MTc3ODM3NDg3MSwianRpIjoiYWYzOTE4YmMtYmUyZi00YmVlLWI1ZTUtOThkZDZlNzUxNGNhIiwic3ViIjoiMTkyIiwidHlwIjoicmVmcmVzaCJ9.ae2mX934xMenFTinAOibA-ZhYEivXzt-o4kcOTb-r0k\",\"device_id\":\"2b162070-9c65-5cc0-b75b-0e6dad622695\"}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/users/me",
+    "body": null
+  },
+  "response": {
+    "status_code": 200,
+    "body": "{\"user_id\":188,\"username\":\"coopersamuel\",\"name\":\"James Cross\",\"last_name\":\"Spears\",\"avatar\":null}"
+  }
+}

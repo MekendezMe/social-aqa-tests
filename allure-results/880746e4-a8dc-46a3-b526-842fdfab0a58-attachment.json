@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://a-little-bit-api.com.ru/api/v1/posts/142",
+    "body": null
+  },
+  "response": {
+    "status_code": 500,
+    "body": "{\"message\":\"Не удалось получить пост\",\"error\":\"не удалось получить пост: PostRepo: record not found\"}"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "troydeleon@example.com",
+      "password": "!X0Ino7P)5",
+      "username": "ucoleman",
+      "name": "Sandra Gardner",
+      "last_name": "Norton"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQ3MTMsImlhdCI6MTc3ODM3MzgxMywic3ViIjoiMTg2IiwidHlwIjoiYWNjZXNzIn0.GvZwYwe0sMZf61f55mdnbMy8U9vHnLUoqQo-2wpRr3Y\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5Nzg2MTMsImlhdCI6MTc3ODM3MzgxMywianRpIjoiMzk5YTJhZWQtOGJhZi00NGMxLWFiZmYtOTU3MDcyN2IyYjFjIiwic3ViIjoiMTg2IiwidHlwIjoicmVmcmVzaCJ9.YSu1GV_KgFhUzdL684TdZt2l6RNQDfq29FEaK_Pwdjg\",\"device_id\":\"a491ab56-dd40-5d4e-a4c9-b37bd1814551\"}"
+  }
+}

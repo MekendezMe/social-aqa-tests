@@ -15,5 +15,8 @@ class GetPostResponse(Post):
 class CreatePostResponse(Post):
     pass
 
-class DeletePostResponse(BaseModel):
-    success: bool
+class UpdatePostResponse(Post):
+    pass
+
+# class DeletePostResponse(BaseModel):
+#     success: bool

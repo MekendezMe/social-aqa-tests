@@ -41,15 +41,25 @@ def registered_user(auth_client, generated_user) -> RegisterContext:
 
 
 @pytest.fixture
-def authenticated_user(registered_user) -> AuthContext:
-    return AuthContext(
-        user=registered_user.user,
-        access_token=registered_user.access_token,
-        refresh_token=registered_user.refresh_token,
-        device_id=registered_user.device_id,
-        headers={
-            "Authorization": f"Bearer {registered_user.access_token}",
-            "Device-ID": registered_user.device_id,
-        },
-    )
+def create_authenticated_user(auth_client):
+    def _create_user() -> AuthContext:
+        user = auth_generator.generate_register()
+
+        response = auth_client.register(payload=user)
+        assert response.status_code == 201, response.text
+
+        token_response = TokenResponse(**response.json())
+
+        return AuthContext(
+            user=user,
+            access_token=token_response.access_token,
+            refresh_token=token_response.refresh_token,
+            device_id=token_response.device_id,
+            headers={
+                "Authorization": f"Bearer {token_response.access_token}",
+                "Device-ID": token_response.device_id,
+            },
+        )
+
+    return _create_user
 

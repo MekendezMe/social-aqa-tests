@@ -1,10 +1,11 @@
 from clients.base_client import BaseClient
-from models.posts.requests import GetAllPostsRequest, GetPostRequest, CreatePostRequest, DeletePostRequest
+from models.posts.requests import GetAllPostsRequest, GetPostRequest, CreatePostRequest, DeletePostRequest, \
+    UpdatePostRequest
 
 
 class PostsClient(BaseClient):
     POSTS_URL = '/posts'
-    def __init__(self, base_url: str, timeout: int = 10):
+    def __init__(self, base_url: str):
         super().__init__(base_url)
         self.base_url = base_url
 
@@ -22,6 +23,15 @@ class PostsClient(BaseClient):
             files['content'] = (None, body.content)
 
         response = self.post_form_data(endpoint=self.POSTS_URL, files=files)
+        return response
+
+    def update_post(self, body: UpdatePostRequest):
+        files = {}
+        if body.content:
+            files['content'] = (None, body.content)
+
+
+        response = self.patch_form_data(endpoint=f'{self.POSTS_URL}/{body.id}', files=files)
         return response
 
     def delete_post(self, body: DeletePostRequest):

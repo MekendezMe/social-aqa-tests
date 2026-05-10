@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://a-little-bit-api.com.ru/api/v1/auth/signup",
+    "body": {
+      "email": "patrick94@example.com",
+      "password": "IWn(1FbcYI",
+      "username": "elizabeth47",
+      "name": "Terry Taylor",
+      "last_name": "Scott"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "body": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzgzNzQzNzUsImlhdCI6MTc3ODM3MzQ3NSwic3ViIjoiMTgwIiwidHlwIjoiYWNjZXNzIn0.IUJykzWjQArxrmBya1YjHG0iWW6JuPClzi5Dwtg8aWg\",\"refresh_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Nzg5NzgyNzUsImlhdCI6MTc3ODM3MzQ3NSwianRpIjoiODI0MjI5ODktNzQ2MC00MDA1LTk5ZjMtZTQ5YjBlZWZmMWU3Iiwic3ViIjoiMTgwIiwidHlwIjoicmVmcmVzaCJ9.3geXpBaiWLV9mFYFw8EKktD2xWXq_J8SbDzrZH2KX0A\",\"device_id\":\"24feb414-8eaf-59ad-a502-2ffae379d071\"}"
+  }
+}
